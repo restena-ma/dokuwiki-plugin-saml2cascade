@@ -1,0 +1,7 @@
+base   saml2cascade
+author Maxime Appolonia
+email  maxime.appolonia@restena.lu
+date   2016-10-21
+name   SAML2 (using adfs plugin) with cascade on AuthPlain
+desc   SAML2 (using adfs plugin) with cascade on AuthPlain
+url    
