@@ -8,7 +8,7 @@
 require_once DOKU_PLUGIN . '/adfs/auth.php';
 require_once DOKU_PLUGIN . '/authplain/auth.php';
 
-class auth_plugin_saml2fallback extends auth_plugin_authplain {
+class auth_plugin_saml2cascade extends auth_plugin_authplain {
     
     private $adfsPlugin;
     

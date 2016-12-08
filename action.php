@@ -5,7 +5,7 @@
  * @author     Maxime Appolonia <maxime.appolonia@restena.lu>
  */
 
-class action_plugin_saml2fallback extends DokuWiki_Action_Plugin {
+class action_plugin_saml2cascade extends DokuWiki_Action_Plugin {
 
     public function register(Doku_Event_Handler $controller) {
     	$controller->register_hook('HTML_LOGINFORM_OUTPUT', 'BEFORE', $this, 'handle_loginform');
